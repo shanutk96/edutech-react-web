@@ -20,7 +20,7 @@ function Header() {
         },
         {
             path: '/aboutus',
-            display: 'About Us'
+            display: 'About Uss'
         }
 
 
