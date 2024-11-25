@@ -21,10 +21,7 @@ function AboutUs() {
         </p>
         <p className="text">Any enquiries? Write to us @ support@edutech.ai</p>
       </div>
-      <div className="image-container">
-      <img src={edutech} alt="Rectangle" className="imagelast"
-      />
-    </div>
+      
     </div>
     
     </>

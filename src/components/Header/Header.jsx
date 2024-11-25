@@ -20,7 +20,11 @@ function Header() {
         },
         {
             path: '/aboutus',
-            display: 'About Uss'
+            display: 'About Us'
+        },
+        {
+            path: '/contactus',
+            display: 'Support'
         }
 
 
