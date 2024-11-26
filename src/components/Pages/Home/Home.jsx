@@ -2,6 +2,7 @@ import React from 'react'
 import meta from './../../../assets/img/meta.jpeg'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
 import { TiMessageTyping } from "react-icons/ti";
+import { Link } from 'react-router-dom';
 
 import './Home.css'
 import Courses from '../Courses/Courses';
@@ -18,8 +19,8 @@ function Home() {
                             <h2 className='section_title'>Learn Everything For Free!!!!!</h2>
                             <p>Transforming Education for the Future: Discover Interactive, Engaging Learning Solutions</p>
                             <div className="home-btns">
-                                <button className='register-btn'>Get Started</button>
-                                <button className='register-btn'>Watch Now!</button>
+                               <Link to='/services'> <button className='register-btn'>Get Started</button> </Link>
+                                <button onClick={() => window.open("https://www.youtube.com/watch?v=SqcY0GlETPk")} className='register-btn'>Watch Now!</button>
                             </div>
                         </div>
 
