@@ -24,3 +24,8 @@
     column-gap: 3rem;
     
 }
+
+.home-btns :hover{
+    background-color: #5a4be3; 
+    transform: scale(1.05); 
+}

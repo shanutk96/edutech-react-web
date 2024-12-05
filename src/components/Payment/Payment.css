@@ -1,0 +1,13 @@
+.MuiContainer-root {
+  background-color: #ffffff;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #155a9c;
+}

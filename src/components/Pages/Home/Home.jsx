@@ -10,17 +10,18 @@ import Community from '../Community/Community';
 import Plans from '../Plans/Plans';
 
 function Home() {
+    console.log("Home rendered")
     return (
         <>
             <section>
                 <div className="container">
                     <div className="home-container">
                         <div className="home-content">
-                            <h2 className='section_title'>Learn Everything For Free!!!!!</h2>
+                            <h2 className='section_title'>Learn Everything at Affordable Prices!</h2>
                             <p>Transforming Education for the Future: Discover Interactive, Engaging Learning Solutions</p>
                             <div className="home-btns">
-                               <Link to='/services'> <button className='register-btn'>Get Started</button> </Link>
-                                <button onClick={() => window.open("https://www.youtube.com/watch?v=SqcY0GlETPk")} className='register-btn'>Watch Now!</button>
+                               <Link to='/services'><button className='register-btn'>Get Started</button></Link>
+                                <button onClick={() => window.open("https://www.youtube.com/watch?v=SqcY0GlETPk")} className='register-btn'>Watch Demo!</button>
                             </div>
                         </div>
 

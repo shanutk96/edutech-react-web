@@ -56,9 +56,16 @@
 .pricing_item .services ul li {
     display: flex;
     align-items: center;
+    text-align: left;
     column-gap: 1.5rem;
     columns: #666;
     line-height: 28px;
+
+    /* list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    text-align: left;
+    width: 100%; */
 }
 .pricing_item .services ul li span i {
     font-size: 0.7rem;

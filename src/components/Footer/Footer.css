@@ -41,5 +41,6 @@
 
 .footer_links li a:hover{
     color: var(--primary-color);
+    transform: scale(1.2); 
     
 }

@@ -7,6 +7,9 @@ import Plans from '../components/Pages/Plans/Plans'
 import Courses from '../components/Pages/Courses/Courses'
 import AboutUs from '../components/AboutUs/AboutUs'
 import ContactUs from '../components/ContactUs/ContactUs'
+import Purchase from '../components/Purchase/Purchase'
+import Payment from '../components/Payment/Payment'
+
 
 function LayoutRoutes() {
     return (
@@ -19,6 +22,9 @@ function LayoutRoutes() {
                 <Route path='/courses' element={<Courses/>} />
                 <Route path='/aboutus' element={<AboutUs/>} />
                 <Route path='/contactus' element={<ContactUs/>} />
+                <Route path='/purchase' element={<Purchase/>} />
+                <Route path='/payment' element={<Payment/>} />
+
             </Routes>
             <Footer/>
         </Router>
